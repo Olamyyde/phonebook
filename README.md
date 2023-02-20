@@ -22,10 +22,9 @@ After running the Docker container, you can access the API via http://localhost:
 The following endpoints are available:
 
     GET /contacts: Fetch all contacts
-    GET /contacts/{id}: Get a contact by ID
+    GET /contacts/{name}: Get a contact by name
     POST /contacts: Create a new contact
-    PUT /contacts/{id}: Update an existing contact
-    DELETE /contacts/{id}: Delete a contact
+    DELETE /contacts/{name}: Delete a contact
 
 To create a contact, make a POST request to /contacts with a JSON payload in the following format:
 
