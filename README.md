@@ -12,8 +12,8 @@ Installation
 
     Clone the repository: git clone https://github.com/YOUR-USERNAME/phone-book-system.git
     Navigate to the project directory: cd phone-book-system
-    Build the Docker image: docker build -t phone-book-system .
-    Run the Docker container: docker run -p 8080:8080 phone-book-system
+    Build the Docker image: docker build -t phonebook:latest .
+    Run the Docker container: docker run -p 8080:8080 phonebook:latest
 
 Usage
 
