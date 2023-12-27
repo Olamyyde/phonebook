@@ -10,9 +10,9 @@ Features
 
 Installation
 
-    Clone the repository: git clone https://github.com/YOUR-USERNAME/phone-book-system.git
-    Navigate to the project directory: cd phone-book-system
-    Build the Docker image: docker build -t phonebook:latest .
+    Clone the repository: git clone https://github.com/olamyyde/phonebook.git
+    Navigate to the project directory: cd phonebook
+    Build the Docker image: docker build -t phonebook.
     Run the Docker container: docker run -p 8080:8080 phonebook:latest
 
 Usage
